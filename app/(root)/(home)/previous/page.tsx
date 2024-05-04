@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Page = () => {
+const Previous = () => {
   return (
     <section className='flex size-full flex-col gap-10 text-white'>
       <h1 className='text-3xl font-bold '>
-        Page
+        Previous
       </h1>
     </section>
   )
 }
 
-export default Page
+export default Previous
