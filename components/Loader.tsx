@@ -5,10 +5,10 @@ const Loader = () => {
   return (
     <div className='h-screen w-full flex-center'>
       <Image 
-        src="/icons/loading-circle.svg"
+        src="/icons/spin-loader.svg"
         alt="loading"
-        width={50}
-        height={50}
+        width={90}
+        height={90}
       />
     </div>
   )
