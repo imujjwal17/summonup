@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+export const metadata:Metadata={
+  title: "Summon Up",
+  description: "Meeting App",
+  icons: '/icons/logo.svg'
+}
 import React, { ReactNode } from "react";
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
